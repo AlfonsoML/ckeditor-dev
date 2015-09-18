@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.html or http://ckeditor.com/license
+Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
 */
 CKEDITOR.plugins.setLang( 'forms', 'eu', {
 	button: {
@@ -15,7 +15,8 @@ CKEDITOR.plugins.setLang( 'forms', 'eu', {
 		checkboxTitle: 'Kontrol-laukiko Ezaugarriak',
 		radioTitle: 'Aukera-botoiaren Ezaugarriak',
 		value: 'Balorea',
-		selected: 'Hautatuta'
+		selected: 'Hautatuta',
+		required: 'Required' // MISSING
 	},
 	form: {
 		title: 'Formularioaren Ezaugarriak',
@@ -37,6 +38,7 @@ CKEDITOR.plugins.setLang( 'forms', 'eu', {
 		size: 'Tamaina',
 		lines: 'lerro kopurura',
 		chkMulti: 'Hautaketa anitzak baimendu',
+		required: 'Required', // MISSING
 		opText: 'Testua',
 		opValue: 'Balorea',
 		btnAdd: 'Gehitu',
@@ -57,6 +59,7 @@ CKEDITOR.plugins.setLang( 'forms', 'eu', {
 		value: 'Balorea',
 		charWidth: 'Zabalera',
 		maxChars: 'Zenbat karaktere gehienez',
+		required: 'Required', // MISSING
 		type: 'Mota',
 		typeText: 'Testua',
 		typePass: 'Pasahitza',
@@ -65,4 +68,4 @@ CKEDITOR.plugins.setLang( 'forms', 'eu', {
 		typeTel: 'Telefono Zenbakia',
 		typeUrl: 'URL'
 	}
-});
+} );

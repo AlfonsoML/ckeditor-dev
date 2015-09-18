@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.html or http://ckeditor.com/license
+Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
 */
 CKEDITOR.plugins.setLang( 'image', 'bn', {
-	alertUrl: 'অনুগ্রহক করে ছবির URL টাইপ করুন',
 	alt: 'বিকল্প টেক্সট',
 	border: 'বর্ডার',
 	btnUpload: 'ইহাকে সার্ভারে প্রেরন কর',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'bn', {
 	validateBorder: 'Border must be a whole number.', // MISSING
 	validateHSpace: 'HSpace must be a whole number.', // MISSING
 	validateVSpace: 'VSpace must be a whole number.' // MISSING
-});
+} );

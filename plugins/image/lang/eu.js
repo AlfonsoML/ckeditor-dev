@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.html or http://ckeditor.com/license
+Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
 */
 CKEDITOR.plugins.setLang( 'image', 'eu', {
-	alertUrl: 'Mesedez Irudiaren URLa idatzi',
 	alt: 'Ordezko Testua',
 	border: 'Ertza',
 	btnUpload: 'Zerbitzarira bidalia',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'eu', {
 	validateBorder: 'Ertza zenbaki oso bat izan behar da.',
 	validateHSpace: 'HSpace zenbaki oso bat izan behar da.',
 	validateVSpace: 'VSpace zenbaki oso bat izan behar da.'
-});
+} );
