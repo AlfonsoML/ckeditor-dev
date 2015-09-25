@@ -6,6 +6,7 @@ CKEditor 4 Changelog
 New Features:
 
 * [#13632](http://dev.ckeditor.com/ticket/13632): Introduce error logging mechanism.
+* [#13730](http://dev.ckeditor.com/ticket/13730): Switch to the new error logging mechanism.
 
 Fixed Issues:
 
@@ -17,6 +18,9 @@ Fixed Issues:
 * [#13533](http://dev.ckeditor.com/ticket/13533): Fixed: No progress during upload.
 * [#13680](http://dev.ckeditor.com/ticket/13680): Fixed: The parser should allow `<h1-6>` to be a child of the `<summary>` element.
 * [#11724](http://dev.ckeditor.com/ticket/11724): [Touch devices] Fixed: Drop-downs often hide right after opening them.
+* [#13690](http://dev.ckeditor.com/ticket/13690): Fixed: Copying content from IE to Chrome adding extra paragraph.
+* [#13284](http://dev.ckeditor.com/ticket/13284): Fixed: Cannot drag and drop a widget if a text caret is placed just after widget instance.
+* [#13516](http://dev.ckeditor.com/ticket/13516): Fixed: CKEditor removes empty html5 anchors without name attribute.
 
 Other Changes:
 
